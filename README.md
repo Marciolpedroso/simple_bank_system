@@ -55,9 +55,9 @@ Please choose an option:
 3. Print Statement
 4. Register User
 5. Create Account
-Enter your choice (1-6): 1
-Enter the deposit amount: 100
-Deposited: $100.00
+- Enter your choice (1-6): 1
+- Enter the deposit amount: 100
+- Deposited: $100.00
 
 
 🌟 Future Improvements
@@ -76,3 +76,4 @@ Create a pull request
 
 👤 Author
 Márcio – Software Engineering Student | Aspiring Python Developer
+
