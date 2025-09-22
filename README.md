@@ -8,7 +8,6 @@ Ideal for practicing Python, functions, and basic data management.
 ---
 
 ## ✨ Features
-
 - 💰 **Deposit**: Add a positive amount to the account balance.  
 - 🏧 **Withdrawal**: Withdraw funds with limits:  
   - Max **3 withdrawals per day**  
@@ -41,15 +40,13 @@ python bank_system.py
 
 
 ⚙ How It Works
-
-💰 Deposit: Add funds; updates balance and statement.
-🏧 Withdrawal: Withdraw money respecting limits; prevents overdrafts.
-📜 Statement: View all transactions so far.
-❌ Exit: Close the program.
+- 💰 Deposit: Add funds; updates balance and statement.
+- 🏧 Withdrawal: Withdraw money respecting limits; prevents overdrafts.
+- 📜 Statement: View all transactions so far.
+- ❌ Exit: Close the program.
 
 
 📝 Example
-
 Welcome to your bank account!
 
 Please choose an option: 
@@ -57,21 +54,19 @@ Please choose an option:
 2. Withdraw
 3. Print Statement
 4. Register User
- 5. Create Account
+5. Create Account
 Enter your choice (1-6): 1
 Enter the deposit amount: 100
 Deposited: $100.00
 
 
 🌟 Future Improvements
-
 Multiple accounts per user
 Persistent storage (file or database)
 User login system
 Unit tests for functions
 
 🤝 Contributing
-
 Fork the repository
 Create a new branch (git checkout -b feature/your-feature)
 Make your changes and commit (git commit -m "Add your message")
