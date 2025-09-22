@@ -1,52 +1,84 @@
-# Banking System (Bank Account Simulator)
+# 🏦 Banking System (Bank Account Simulator)
 
-This is a simple banking system in Python, where the user can perform **deposit**, **withdrawal**, **check statement**, and view the **current balance**.
+A Python banking system where users can perform **deposits**, **withdrawals**, **view statements**, and track their **current balance**.  
+Ideal for practicing Python, functions, and basic data management.
 
-## Features
+[![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)
 
-- **Deposit**: The user can deposit a positive amount into the account.
-- **Withdrawal**: The user can make withdrawals, with the following restrictions:
-  - The maximum number of withdrawals per day is **3**.
-  - The maximum amount per withdrawal is **$500**.
-- **Statement**: The user can check the statement with all the transactions made so far.
-- **Balance**: The system keeps track of the current balance, updating it after each deposit or withdrawal.
+---
 
-## How to Run
+## ✨ Features
 
-1. **Prerequisites**:
-   - This project is developed in **Python 3.x**.
+- 💰 **Deposit**: Add a positive amount to the account balance.  
+- 🏧 **Withdrawal**: Withdraw funds with limits:  
+  - Max **3 withdrawals per day**  
+  - Max **$500 per withdrawal**  
+- 📜 **Statement**: See all transactions (deposits and withdrawals).  
+- 💵 **Balance**: Track current account balance.  
+- 🧑‍💼 **User & Account Management**: Register users and link accounts.  
 
-2. **Running the Project**:
-   - Clone the repository to your computer:
-     ```bash
-     git clone https://github.com/your-username/repository-name.git
-     ```
-   - Navigate into the project folder:
-     ```bash
-     cd repository-name
-     ```
-   - Run the script:
-     ```bash
-     python file-name.py
-     ```
+---
 
-## How It Works
+## 🛠 Requirements
 
-1. **Deposit**: The user can deposit an amount into the account, and the balance will be updated. The deposit will be recorded in the statement.
-2. **Withdrawal**: The user can withdraw funds, respecting the limitations of withdrawal amount (maximum $500 per withdrawal) and the daily withdrawal limit of 3 withdrawals.
-3. **Statement**: The user can check all transactions made (deposits and withdrawals) so far.
-4. **Exit**: The user can exit the system.
+- Python 3.x installed  
+- Windows, macOS, or Linux  
 
-### Example Interaction
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repo**:
 
 ```bash
+git clone https://github.com/your-username/repository-name.git
+
+
+2. Navigate to project folder:
+cd repository-name
+
+3. Run the system:
+python bank_system.py
+
+
+⚙ How It Works
+
+💰 Deposit: Add funds; updates balance and statement.
+🏧 Withdrawal: Withdraw money respecting limits; prevents overdrafts.
+📜 Statement: View all transactions so far.
+❌ Exit: Close the program.
+
+
+📝 Example
+
 Welcome to your bank account!
 
 Please choose an option: 
 1. Deposit
 2. Withdraw
-3. Statement
-4. Exit
-Enter your choice (1-4): 1
+3. Print Statement
+4. Register User
+ 5. Create Account
+Enter your choice (1-6): 1
 Enter the deposit amount: 100
 Deposited: $100.00
+
+
+🌟 Future Improvements
+
+Multiple accounts per user
+Persistent storage (file or database)
+User login system
+Unit tests for functions
+
+🤝 Contributing
+
+Fork the repository
+Create a new branch (git checkout -b feature/your-feature)
+Make your changes and commit (git commit -m "Add your message")
+Push to branch (git push origin feature/your-feature)
+Create a pull request
+
+
+👤 Author
+Márcio – Software Engineering Student | Aspiring Python Developer
